@@ -30,5 +30,5 @@ To use the heart disease prediction model in your own project, follow these step
 1. Load the trained model.
 2. Use the `predict` function to get predictions for new data.
 
- 
+ ![MeMe](https://github.com/pradheepg/Heart_Disease_Prediction/blob/main/Image/meme.jpg)
 
