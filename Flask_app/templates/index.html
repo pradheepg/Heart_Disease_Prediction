@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h2>Enter Your Details</h2>
+    <form action="/predict" method="POST">
+        Age: <input type="number" name="age" required><br><br>
+        Sex (0 for Female, 1 for Male): <input type="number" name="sex" required><br><br>
+        Smoking (0 for No, 1 for Yes): <input type="number" name="is_smoking" required><br><br>
+        Cigarettes per Day: <input type="number" name="cigs_per_day" required><br><br>
+        BP Meds (0 for No, 1 for Yes): <input type="number" name="BPMeds" required><br><br>
+        Prevalent Stroke (0 for No, 1 for Yes): <input type="number" name="prevalent_stroke" required><br><br>
+        Prevalent Hypertension (0 for No, 1 for Yes): <input type="number" name="prevalent_hyp" required><br><br>
+        Diabetes (0 for No, 1 for Yes): <input type="number" name="diabetes" required><br><br>
+        Total Cholesterol: <input type="number" name="totChol" required><br><br>
+        Systolic Blood Pressure: <input type="number" name="sysBP" required><br><br>
+        Diastolic Blood Pressure: <input type="number" name="diaBP" required><br><br>
+        BMI: <input type="number" name="BMI" required><br><br>
+        Heart Rate: <input type="number" name="heart_rate" required><br><br>
+        Glucose Level: <input type="number" name="glucose" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
